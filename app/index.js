@@ -301,6 +301,9 @@ module.exports = generators.Base.extend({
         misc: function () {
             mkdirp('app/images');
             mkdirp('app/fonts');
+            mkdirp('partials/layout');
+            mkdirp('partials/modules');
+            mkdirp('partials/pages');
         }
     },
 
