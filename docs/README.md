@@ -13,7 +13,7 @@ Link to the generator-mspfed directory:
 $ cd /path/to/generator-mspfed
 $ npm link
 ```
-** This only needs to be done once, unless you move generator-mspfed
+** This only needs to be done once, unless you move `generator-mspfed`
 
 
 Now you can scaffold your very own web app:
@@ -21,7 +21,7 @@ Now you can scaffold your very own web app:
 ```sh
 $ mkdir my-webapp
 $ cd my-webapp
-$ yo webapp
+$ yo mspfed
 ```
 
 To start developing, run:
