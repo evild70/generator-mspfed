@@ -19,7 +19,7 @@ gulp.task('styles', () => {<% if (includeSass) { %>
         }).on('error', $.sass.logError))<% } else { %>
     return gulp.src('app/styles/*.css')
         .pipe($.sourcemaps.init())<% } %>
-        .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
+        .pipe($.autoprefixer({browsers: ['> 1%', 'last 4 versions']}))
         .pipe($.sourcemaps.write())
         .pipe(gulp.dest('.tmp/styles'))
         .pipe(reload({stream: true}));
