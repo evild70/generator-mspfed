@@ -5,8 +5,16 @@ Welcome to the [gulp] flavor of our web app generator! If you're not familiar wi
 If you haven't already, install [yo] and this generator by running:
 
 ```sh
-$ npm install --global yo generator-webapp
+$ npm install --global yo
 ```
+
+Link to the generator-mspfed directory:
+```sh
+$ cd /path/to/generator-mspfed
+$ npm link
+```
+** This only needs to be done once, unless you move generator-mspfed
+
 
 Now you can scaffold your very own web app:
 
@@ -33,7 +41,7 @@ $ gulp serve:test
 To make a production-ready build of the app, run:
 
 ```sh
-$ gulp
+$ gulp build
 ```
 
 To preview the production-ready build to check if everything is ok:

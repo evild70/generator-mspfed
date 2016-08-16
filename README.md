@@ -1,6 +1,6 @@
-# Mirum MSP Web app generator
+# Mirum MSP Front End web app generator
 
-> [Yeoman](http://yeoman.io) generator that scaffolds out a front-end web app using [gulp](http://gulpjs.com/) for the build process
+> Mirum MSP Front End web app generator that scaffolds out a front-end web app using [gulp](http://gulpjs.com/) for the build process. Heavily copied from [Yeoman](https://github.com/yeoman/generator-webapp)
 
 ![](screenshot.png)
 
@@ -21,29 +21,22 @@ Please see our [gulpfile](app/templates/gulpfile.js) for up to date information 
 *For more information on what this generator can do for you, take a look at the [gulp plugins](app/templates/_package.json) used in our `package.json`.*
 
 
-## libsass
-
-Keep in mind that libsass is feature-wise not fully compatible with Ruby Sass. Check out [this](http://sass-compatibility.github.io) curated list of incompatibilities to find out which features are missing.
-
-If your favorite feature is missing and you really need Ruby Sass, you can always switch to [gulp-ruby-sass](https://github.com/sindresorhus/gulp-ruby-sass) and update the `styles` task in gulpfile accordingly.
-
-
 ## Getting Started
 
 - Install dependencies: `npm install --global yo gulp-cli bower`
-- Install the generator: `npm install --global generator-webapp`
-- Run `yo webapp` to scaffold your webapp
+- Link to the generator: `cd /path/to/generator-mspfed && npm link`
+- Run `yo mspfed` to scaffold your webapp
 - Run `gulp serve` to preview and watch for changes
 - Run `bower install --save <package>` to install frontend dependencies
 - Run `gulp serve:test` to run the tests in the browser
-- Run `gulp` to build your webapp for production
+- Run `gulp build` to build your webapp for production
 - Run `gulp serve:dist` to preview the production build
 
 
 ## Docs
 
 * [getting started](docs/README.md) with this generator
-* [recipes](docs/recipes/README.md) for integrating other popular technologies like CoffeeScript
+* [recipes](docs/recipes/README.md) for integrating other popular technologies like Jade
 * [details](docs/bower.md) about our Bower setup
 * [contribution](contributing.md) docs and [FAQ](docs/faq.md), good to check before posting an issue
 
