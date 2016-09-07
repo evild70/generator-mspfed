@@ -25,7 +25,7 @@ Please see our [gulpfile](app/templates/gulpfile.js) for up to date information 
 
 - Install dependencies: `npm install --global yo gulp-cli bower`
 - Link to the generator: `cd /path/to/generator-mspfed && npm link`
-- Run `yo mspfed` to scaffold your webapp
+- Run `cd /path/to/new_webapp` then `yo mspfed` to scaffold your webapp
 - Run `gulp serve` to preview and watch for changes
 - Run `bower install --save <package>` to install frontend dependencies
 - Run `gulp serve:test` to run the tests in the browser
