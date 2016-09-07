@@ -9,6 +9,7 @@ $ npm install --global yo
 ```
 
 Link to the generator-mspfed directory:
+
 ```sh
 $ cd /path/to/generator-mspfed
 $ npm link
