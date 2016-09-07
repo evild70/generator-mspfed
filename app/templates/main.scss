@@ -3,6 +3,7 @@
 // bower:scss
 // endbower
 
+/* All these initial styles can be removed */
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
@@ -92,7 +93,9 @@ body {
 }<% } else { %>// bower:scss
 // endbower
 
+@charset 'UTF-8';
 
+/* body, .hero-unit, .browserupgrade can be removed */
 body {
     background: #fafafa;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -122,10 +125,7 @@ body {
     padding: 0.2em 0;
 }<% } %>
 
-@charset 'UTF-8';
-
 @import 'vendor/normalize';
-@import 'bower_components/susy/sass/susy';
 
 // Configuration and helpers
 @import
