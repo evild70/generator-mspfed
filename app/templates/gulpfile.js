@@ -3,7 +3,10 @@ const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const browserSync = require('browser-sync');
 const del = require('del');
+const notify = require('gulp-notify');
 const wiredep = require('wiredep').stream;
+
+const buffer = require('vinyl-buffer');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
